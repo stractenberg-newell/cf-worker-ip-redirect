@@ -1,0 +1,10 @@
+{
+"body_part": "script",
+  "bindings": [
+    {
+      "type": "kv_namespace",
+      "name": "ALLOWED_IPS",
+      "namespace_id": "<namespace_ID>"
+    }
+  ]
+}
