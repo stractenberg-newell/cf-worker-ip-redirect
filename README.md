@@ -6,15 +6,15 @@ We use this so that employees in company offices and on VPN can access brand new
 REQUIREMENTS:
 1. A KV Namespace with unique IPs per line in CSV format:
 
-ipAddress1,ipAddress1
-ipAddress2,ipAddress2
-ipAddress3,ipAddress3
-...
+ipAddress1,ipAddress1  
+ipAddress2,ipAddress2  
+ipAddress3,ipAddress3  
+...  
 
 2. A KV Namespace Binding with:
 
-Variable Name = "ALLOWED_IPS"
-KV namespace = "<whatever you named your namespace from Step 1 above>"
+Variable Name = "ALLOWED_IPS"  
+KV namespace = "<whatever you named your namespace from Step 1 above>"  
 
 3. Edit line 17 of ip_redirect.js with the URL you want the public to be redirected to
 
